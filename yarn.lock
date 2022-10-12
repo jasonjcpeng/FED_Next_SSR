@@ -1194,6 +1194,11 @@ levn@^0.4.1:
     prelude-ls "^1.2.1"
     type-check "~0.4.0"
 
+locale@^0.1.0:
+  version "0.1.0"
+  resolved "https://registry.npmmirror.com/locale/-/locale-0.1.0.tgz#3b5bf70614fdab48ac3e3fbc648147cb65443bde"
+  integrity sha512-rY3ZMnUkMfaZEix1fp/pjdwsHJkDQcE0UEcXHuYI77J03K8gddL3iD+UuJCLAmT2Z2oz5A70/0QS4J9OLCCvXw==
+
 locate-path@^6.0.0:
   version "6.0.0"
   resolved "https://registry.yarnpkg.com/locate-path/-/locate-path-6.0.0.tgz#55321eb309febbc59c4801d931a72452a681d286"

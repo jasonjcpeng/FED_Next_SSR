@@ -5,7 +5,7 @@ import styles from '../styles/Home.module.css'
 import { useTranslation } from 'next-i18next'
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations'
 
-const Demo: NextPage = (props: any) => {
+const Home: NextPage = (props: any) => {
     const { t } = useTranslation('demo')
     return (
         <div className={styles.container}>
@@ -23,7 +23,7 @@ const Demo: NextPage = (props: any) => {
 
             <main className={styles.main}>
                 <h1 className={styles.title}>
-                    Welcome to <a href="#">DEMO Page</a>
+                    Welcome to <a href="https://nextjs.org">Next.js!</a>
                 </h1>
 
                 <p className={styles.description}>
@@ -103,4 +103,4 @@ export async function getStaticProps({ locale }: any) {
     }
 }
 
-export default Demo
+export default Home
